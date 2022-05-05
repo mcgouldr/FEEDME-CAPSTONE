@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FEEDME", "FEED.ME\FEEDME.csproj", "{CECA64A3-8336-4658-9059-2146F3E2B674}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FEEDME.Library", "FEEDME.Library\FEEDME.Library.csproj", "{A060EE96-AADA-4BB8-88C7-BC9A960F658D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CECA64A3-8336-4658-9059-2146F3E2B674}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CECA64A3-8336-4658-9059-2146F3E2B674}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CECA64A3-8336-4658-9059-2146F3E2B674}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CECA64A3-8336-4658-9059-2146F3E2B674}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A060EE96-AADA-4BB8-88C7-BC9A960F658D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A060EE96-AADA-4BB8-88C7-BC9A960F658D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A060EE96-AADA-4BB8-88C7-BC9A960F658D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A060EE96-AADA-4BB8-88C7-BC9A960F658D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CD1B433E-2598-4E31-AF56-91B5594C464B}
+	EndGlobalSection
+EndGlobal

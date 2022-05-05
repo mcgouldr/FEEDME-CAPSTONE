@@ -1,0 +1,34 @@
+﻿<UserControl x:Class="FEEDME.MVVM.View.ResultsView"
+             x:Name="resultView"
+               Visibility="Visible"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:FEEDME.MVVM.View" 
+             xmlns:src="clr-namespace:FEEDME.Core"
+             mc:Ignorable="d" 
+             d:DesignHeight="575" d:DesignWidth="800"
+             Background="#272537">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="170"/>
+            <RowDefinition Height="170"/>
+            <RowDefinition Height="170"/>
+            <RowDefinition Height="15"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="150"/>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition Width="100"/>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition Width="150"/>
+        </Grid.ColumnDefinitions>
+
+       
+
+    </Grid>
+
+</UserControl>
